@@ -7,7 +7,7 @@
 3. Github na prática
 4. **BONUS: Markdown**
 
----
+<br>
 
 ## 1) O que é Git e Github?
 
@@ -55,7 +55,7 @@ VCS - Version Control System
 - Comunidade com vários projetos e desenvolvedores
   - Contribuição com projetos open-source
 
----
+<br>
 
 ## 2) Git na prática
 
@@ -71,13 +71,13 @@ VCS - Version Control System
 
 ![git_scheme](assets/git_scheme.png)
 
----
+<br>
 
 ## 3) Github na prática
 
 <br>
 
----
+<br>
 
 ## 4) BONUS: Markdown
 
