@@ -63,13 +63,125 @@ VCS - Version Control System
 
 ### **Git "por trás das cortinas"**
 
+- Alguns termos do Git
+  - Commit -> Ponto na História
+  - Branch -> Ramificação
+  - HEAD -> Ponteiro que mostra qual commit está sendo observado
 - As estruturas do Git
 
 ![git_stacks](assets/git_stacks.png)
 
+1. **Working Directory:** arquivos trabalhados no momento
+   - Também conhecido como _Working Tree_
+2. **Stage Area:** estágio cujo os arquivos estão preparados para o _commit_, esse estágio é atingido pelo comando _git add_
+   - Também conhecido como _Stage Index_
+3. **Local Repository:** destino final dos arquivos; estágio atingido pelo _git commit_
+
 - Esquema prático organizacional do Git
 
 ![git_scheme](assets/git_scheme.png)
+
+<br>
+
+### **Fazendo Alterações Locais**
+
+1. Inicializando um repositório localmente
+
+```bash
+# No diretório que irá comportar o projeto
+$git init
+```
+
+2. Adicionando os arquivos do diretório para a _Stage Area (Index)_
+
+```bash
+# O argumento '.' adiciona todos os arquivos do diretório atual
+$git add .
+```
+
+3. Fazendo seu primeiro _commit_
+
+```bash
+# A flag '-m' sinaliza que uma mensagem será adicionada em seguida
+$git commit -m 'sua mensagem'
+```
+
+4. Visualizando seus pontos na história (_commit_) do ramo (_branch_)
+
+```bash
+# Exibir o histórico de forma detalhada
+$git log
+
+# Exibir o histórico de forma sucinta
+$git log --oneline
+```
+
+### **Desfazendo Alterações Locais**
+
+1. Desfazendo o último _commit_
+
+```bash
+# O comando desfaz o último commit como se ele nunca tivesse sido feito
+$git commit --amend
+```
+
+2. Tirando arquivos da _Stage Area_
+
+```bash
+# Apenas o arquivo especificado sai da Stage Area e volta para a Working Tree
+$git restore --staged <arquivo>
+
+# Outra alternativa
+$git rm --staged <arquivo>
+```
+
+3. Removendo arquivos não rastreados da _Working Tree_
+
+```bash
+# A flag '-n' mostra quais são os arquivos a serem limpados
+# A flag '-f' força a limpeza e deleta esses arquivos
+$git clean
+```
+
+4. Revertendo um _commit_ quando a _Working Tree_ está limpa
+
+```bash
+# Cria um novo commit marcando a reversão como um ponto na história
+$git revert HEAD~(número_do_commit)
+
+# Outra maneira
+$git revert (hash)
+```
+
+### **Verificando Modificações**
+
+```bash
+# Compara o arquivo do Repositório Local com a Working Tree
+$git diff <arquivo(argumento opcional)>
+```
+
+### **Enviando e Recebendo Arquivos da Nuvem**
+
+1. Clonando um repositório direto da nuvem
+
+```bash
+# O link do projeto é obtido diretamente do http:// na URL
+$git clone <link_do_projeto>
+```
+
+2. Empurrando as alterações para a nuvem
+
+```bash
+# O comando só será executado caso você tenha acesso ao repositório como contribuinte ou caso seja o dono do projeto
+$git push <nome_da_branch_remota> <branch_local>
+```
+
+4. Puxando as alterações da nuvem
+
+```bash
+# É sempre bom puxar as alterações da nuvem antes de começar a trabalhar em qualquer código
+$git pull <nome_da_branch_remota> <branch_local>
+```
 
 <br>
 
