@@ -32,9 +32,7 @@
 
 ### **Outros**
 
-<!-- FIXME: add markdown link -->
-
-- [Markdown]()
+- [Markdown](https://www.markdownguide.org/getting-started/)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 <br>
@@ -100,6 +98,8 @@ VCS - Version Control System
 [Instalando o Git (Referência Oficial)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 [Configurando o Git (Referência Oficial)](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
+<br>
 
 ### **Git "por trás das cortinas"**
 
@@ -240,6 +240,20 @@ git pull <nome_da_branch_remota> <branch_local>
 [Início Rápido (Referência Oficial)](https://docs.github.com/en/get-started/quickstart)
 
 [Criando a chave SSH (Referência Oficial)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+<br>
+
+### **Projetos / Empresas interessantes disponíveis no Github**
+
+[freeCodeCamp - Top 1 em estrelas](https://github.com/freeCodeCamp/freeCodeCamp)
+
+[developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
+
+[Google](https://github.com/google)
+
+[Meta](https://github.com/facebook)
+
+[Python](https://github.com/python)
 
 <br>
 
