@@ -87,100 +87,100 @@ VCS - Version Control System
 
 1. Inicializando um repositório localmente
 
-```bash
+```python
 # No diretório que irá comportar o projeto
-$git init
+$ git init
 ```
 
 2. Adicionando os arquivos do diretório para a _Stage Area (Index)_
 
-```bash
+```python
 # O argumento '.' adiciona todos os arquivos do diretório atual
-$git add .
+$ git add .
 ```
 
 3. Fazendo seu primeiro _commit_
 
-```bash
+```python
 # A flag '-m' sinaliza que uma mensagem será adicionada em seguida
-$git commit -m 'sua mensagem'
+$ git commit -m 'sua mensagem'
 ```
 
 4. Visualizando seus pontos na história (_commit_) do ramo (_branch_)
 
-```bash
+```python
 # Exibir o histórico de forma detalhada
-$git log
+$ git log
 
 # Exibir o histórico de forma sucinta
-$git log --oneline
+$ git log --oneline
 ```
 
 ### **Desfazendo Alterações Locais**
 
 1. Desfazendo o último _commit_
 
-```bash
+```python
 # O comando desfaz o último commit como se ele nunca tivesse sido feito
-$git commit --amend
+$ git commit --amend
 ```
 
 2. Tirando arquivos da _Stage Area_
 
-```bash
+```python
 # Apenas o arquivo especificado sai da Stage Area e volta para a Working Tree
-$git restore --staged <arquivo>
+$ git restore --staged <arquivo>
 
 # Outra alternativa
-$git rm --staged <arquivo>
+$ git rm --staged <arquivo>
 ```
 
 3. Removendo arquivos não rastreados da _Working Tree_
 
-```bash
+```python
 # A flag '-n' mostra quais são os arquivos a serem limpados
 # A flag '-f' força a limpeza e deleta esses arquivos
-$git clean
+$ git clean
 ```
 
 4. Revertendo um _commit_ quando a _Working Tree_ está limpa
 
-```bash
+```python
 # Cria um novo commit marcando a reversão como um ponto na história
-$git revert HEAD~(número_do_commit)
+$ git revert HEAD~(número_do_commit)
 
 # Outra maneira
-$git revert (hash)
+$ git revert (hash)
 ```
 
 ### **Verificando Modificações**
 
-```bash
+```python
 # Compara o arquivo do Repositório Local com a Working Tree
-$git diff <arquivo(argumento opcional)>
+$ git diff <arquivo(argumento opcional)>
 ```
 
 ### **Enviando e Recebendo Arquivos da Nuvem**
 
 1. Clonando um repositório direto da nuvem
 
-```bash
+```python
 # O link do projeto é obtido diretamente do http:// na URL
-$git clone <link_do_projeto>
+$ git clone <link_do_projeto>
 ```
 
 2. Empurrando as alterações para a nuvem
 
-```bash
+```python
 # O comando só será executado caso você tenha acesso ao repositório como contribuinte ou caso seja o dono do projeto
-$git push <nome_da_branch_remota> <branch_local>
+$ git push <nome_da_branch_remota> <branch_local>
 ```
 
 4. Puxando as alterações da nuvem
 
-```bash
+```python
 # É sempre bom puxar as alterações da nuvem antes de começar a trabalhar em qualquer código
-$git pull <nome_da_branch_remota> <branch_local>
+$ git pull <nome_da_branch_remota> <branch_local>
 ```
 
 <br>
