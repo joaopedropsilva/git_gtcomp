@@ -9,6 +9,34 @@
 
 <br>
 
+## **Referências Utilizadas**
+
+### **Docs**
+
+- [Documentação Oficial - Git](https://git-scm.com/docs)
+
+- [Pro Git - Scott Chacon & Ben Straub (Livro - Tutorial)](https://git-scm.com/book/en/v2)
+
+- [Uma Referência Visual do Git - Mark Lodato](https://marklodato.github.io/visual-git-guide/index-pt.html)
+
+### **Tutoriais**
+
+- [Tutorial de Git em 2h30min - Bonieki Lacerda](https://youtu.be/OuOb1_qADBQ)
+
+### **Cursos**
+
+- [Rocketseat - Guia Estelar de Git](https://app.rocketseat.com.br/node/o-guia-estelar-de-git)
+- [Rocketseat - Guia Estelar de Github](https://app.rocketseat.com.br/node/o-guia-estelar-de-git-hub)
+
+### **Outros**
+
+<!-- FIXME: add markdown link -->
+
+- [Markdown]()
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+<br>
+
 ## 1) O que é Git e Github?
 
 <br>
@@ -60,6 +88,16 @@ VCS - Version Control System
 ## 2) Git na prática
 
 <br>
+
+### **Setup do Git**
+
+[Instalando o Git (Vídeo)](https://youtu.be/OuOb1_qADBQ?t=910)
+
+[Configurando o Git (Vídeo)](https://youtu.be/OuOb1_qADBQ?t=1302)
+
+[Instalando o Git (Referência Oficial)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+[Configurando o Git (Referência Oficial)](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
 ### **Git "por trás das cortinas"**
 
