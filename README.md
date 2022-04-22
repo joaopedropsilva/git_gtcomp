@@ -19,6 +19,8 @@
 
 - [Uma Referência Visual do Git - Mark Lodato](https://marklodato.github.io/visual-git-guide/index-pt.html)
 
+- [Documentação Oficial - Github](https://docs.github.com/en)
+
 ### **Tutoriais**
 
 - [Tutorial de Git em 2h30min - Bonieki Lacerda](https://youtu.be/OuOb1_qADBQ)
@@ -226,6 +228,18 @@ git pull <nome_da_branch_remota> <branch_local>
 ## 3) Github na prática
 
 <br>
+
+### **Setup do Github**
+
+[Criando um Repositório (Vídeo)](https://www.youtube.com/watch?v=OuOb1_qADBQ&t=1302s)
+
+[Conectando o Repositório Local ao Remoto (Vídeo)](https://youtu.be/OuOb1_qADBQ?t=5590)
+
+[Conta e Perfil (Referência Oficial)](https://docs.github.com/en/account-and-profile)
+
+[Início Rápido (Referência Oficial)](https://docs.github.com/en/get-started/quickstart)
+
+[Criando a chave SSH (Referência Oficial)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 <br>
 
