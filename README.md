@@ -224,7 +224,7 @@ git pull <nome_da_branch_remota> <branch_local>
 
 ### **Setup do Github**
 
-[Criando um Repositório (Vídeo)](https://www.youtube.com/watch?v=OuOb1_qADBQ&t=1302s)
+[Criando um Repositório (Vídeo)](https://youtu.be/OuOb1_qADBQ?t=5241)
 
 [Conectando o Repositório Local ao Remoto (Vídeo)](https://youtu.be/OuOb1_qADBQ?t=5590)
 
