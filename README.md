@@ -38,8 +38,6 @@
 
 ## 1) O que é Git e Github?
 
-<br>
-
 ### **Tipos de Controle de Versão**
 
 VCS - Version Control System
@@ -85,8 +83,6 @@ VCS - Version Control System
 <br>
 
 ## 2) Git na prática
-
-<br>
 
 ### **Setup do Git**
 
@@ -226,8 +222,6 @@ git pull <nome_da_branch_remota> <branch_local>
 
 ## 3) Github na prática
 
-<br>
-
 ### **Setup do Github**
 
 [Criando um Repositório (Vídeo)](https://www.youtube.com/watch?v=OuOb1_qADBQ&t=1302s)
@@ -258,9 +252,7 @@ git pull <nome_da_branch_remota> <branch_local>
 
 ## 4) BONUS: Markdown
 
-<br>
-
-Markdown é uma linguagem de marcação leve que permite a adição de diversos elementos formatados em arquivos _plaintext_ (arquivos que não preservam formatação)
+Markdown é uma linguagem de marcação leve que permite a adição de diversos elementos formatados em arquivos _plaintext_ (arquivos que não preservam formatação).
 
 <br>
 
