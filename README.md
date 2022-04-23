@@ -32,7 +32,6 @@
 
 ### **Outros**
 
-- [Markdown](https://www.markdownguide.org/getting-started/)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 <br>
@@ -260,3 +259,21 @@ git pull <nome_da_branch_remota> <branch_local>
 ## 4) BONUS: Markdown
 
 <br>
+
+Markdown é uma linguagem de marcação leve que permite a adição de diversos elementos formatados em arquivos _plaintext_ (arquivos que não preservam formatação)
+
+<br>
+
+### **Fluxograma do Markdown**
+
+![Markdown Flowchart](./assets/markdown-flowchart.png)
+
+<br>
+
+### **Referências para Markdown**
+
+[Markdown - Tutorial Básico](https://youtu.be/Y7hs3vAcVt0)
+
+[Markdown Guide](https://www.markdownguide.org/getting-started/)
+
+[Daring Fireball](https://daringfireball.net/projects/markdown/)
