@@ -156,7 +156,7 @@ git log --oneline
 1. Desfazendo o último _commit_
 
 ```bash
-# O comando desfaz o último commit como se ele nunca tivesse sido feito
+# O comando permite que o usuário altere a mensagem do último commit e até mesmo adicione novas alterações a ele
 git commit --amend
 ```
 
