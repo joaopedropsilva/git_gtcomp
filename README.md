@@ -182,11 +182,13 @@ git clean
 
 ```bash
 # Cria um novo commit marcando a reversão como um ponto na história
-git revert HEAD~(número_do_commit)
+git revert HEAD~<número_do_commit>
 
 # Outra maneira
 git revert (hash)
 ```
+
+[Git Revert Tutorial](https://dev.to/womakerscode/tutorial-git-desfazendo-commits-revert-57c2)
 
 ### **Verificando Modificações**
 
